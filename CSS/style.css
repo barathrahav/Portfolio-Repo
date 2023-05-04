@@ -5,6 +5,7 @@
   text-decoration: none;
 }
 .bgimage {
+  /* background-image: url("bg_home.jpg"); */
   width: 100%;
   background-size: cover;
   position: relative;
@@ -73,7 +74,7 @@
 .fa-instagram:hover,
 .fa-twitter:hover,
 .fa-linkedin:hover,
-.fa-twitch:hover {
+.fa-github:hover {
   color: #008000;
 }
 
@@ -84,4 +85,28 @@
 #footer {
   background-color: #808080;
   text-align: center;
+}
+
+@media screen and (min-width:681px) and (max-width: 1200px){
+  .head-text{
+    top: 35%;
+  }
+  .head_title{
+    font-size: 3.2rem;
+  }
+  .head_desc{
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (min-width:200px) and (max-width: 680px){
+  .head-text{
+    top: 25%;
+  }
+  .head_title{
+    font-size: 2.2rem;
+  }
+  .head_desc{
+    font-size: 1.2rem;
+  }
 }
