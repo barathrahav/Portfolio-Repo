@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kalam:wght@700&family=Poppins:wght@300&family=Roboto:wght@300&family=Rubik+Pixels&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kalam:wght@700&family=Poppins:wght@300&family=Roboto:wght@300&family=Rubik+Pixels&display=swap");
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -17,7 +17,7 @@
 
 .head_desc {
   font-size: 2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .head-text {
@@ -37,7 +37,7 @@
   width: 100%;
 }
 
-.btn a{
+.btn a {
   text-decoration: none;
 }
 .servicesText.card {
@@ -86,26 +86,26 @@
   text-align: center;
 }
 
-@media screen and (min-width:681px) and (max-width: 1200px){
-  .head-text{
+@media screen and (min-width: 681px) and (max-width: 1200px) {
+  .head-text {
     top: 35%;
   }
-  .head_title{
+  .head_title {
     font-size: 3.2rem;
   }
-  .head_desc{
+  .head_desc {
     font-size: 2.2rem;
   }
 }
 
-@media screen and (min-width:200px) and (max-width: 680px){
-  .head-text{
+@media screen and (min-width: 200px) and (max-width: 680px) {
+  .head-text {
     top: 25%;
   }
-  .head_title{
+  .head_title {
     font-size: 2.2rem;
   }
-  .head_desc{
+  .head_desc {
     font-size: 1.2rem;
   }
 }
