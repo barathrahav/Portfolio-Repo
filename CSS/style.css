@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kalam:wght@700&family=Poppins:wght@300&family=Roboto:wght@300&family=Rubik+Pixels&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
 }
+
 .bgimage {
   width: 100%;
   background-size: cover;
@@ -40,6 +42,7 @@
 .btn a {
   text-decoration: none;
 }
+
 .servicesText.card {
   height: 250px;
   cursor: pointer;
@@ -84,6 +87,30 @@
 #footer {
   background-color: #808080;
   text-align: center;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #f8f9fa; /* change as needed */
+  padding: 10px;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: #000000; /* change as needed */
+  font-weight: bold;
+}
+
+.nav-link.active {
+  color: #008000; /* change as needed */
 }
 
 @media screen and (min-width: 681px) and (max-width: 1200px) {
